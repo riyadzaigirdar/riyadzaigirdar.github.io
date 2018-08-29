@@ -16,6 +16,7 @@ body{
 }
 
 .button1{
+	margin-top:10px;
 	border:none;
 	height:35px;
 	padding:0 20px 0 20px;
@@ -55,11 +56,14 @@ header a{
 
 header #logo{
 float:left;
+margin-right:70px;
 }
 
 header nav{
 	float:right;
-	margin:20px; 
+	margin-top:20px;
+	
+	 
 }
 
 header .highlight, header .current a{
@@ -97,6 +101,7 @@ header a:hover{
 #subscribe h1{
 	padding-left:0; 
 	float:left;
+	margin-right:20px;
 
 	font-weight:bold;
 	font-size:35px;
@@ -163,6 +168,9 @@ width:90px;
 
 }
 
+
+
+
 #about aside{
 	
 	line-height:1.8em;
@@ -228,7 +236,9 @@ width:90px;
 }
 
 #sidebar .dark .quote .button1{
-	margin-left:20px; 
+	margin-left:20px;
+
+
 }
 #main .page-title{
 margin-left:40px;
@@ -315,7 +325,61 @@ font-weight:bold
 }
 
 
+
+
 	
 	
+
+}
+
+
+
+
+@media(max-width:900px){
+header nav{
+	float:none;
+	margin:none;
+
+
+}
+
+header li{
+	
+	display:block; 
+	 
+}
+
+#subscribe form{
+	float:none;
+	margin-top:40px;
+	width:80%;
+}
+
+#subscribe input[type="email"]{
+	padding:4px;
+	height:25px;
+	width:100%;
+	display:block;
+
+}
+
+.button1{
+	margin-top:10px;
+	border:none;
+	height:40px;
+	padding:0 20px 0 20px;
+	color:#ffffff;
+	background-color:#e8491d;
+	width:103%;
+	
+
+}
+
+#sidebar .dark .quote .button1{
+	width:40%;
+
+}
+
+
 
 }
