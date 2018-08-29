@@ -1,0 +1,321 @@
+body{
+	background-color:#f4f4f4;
+	color:#555;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	line-height:1.5px;
+	margin:0;
+	padding:0; 
+	margin-top:none;  
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden; 
+}
+
+.button1{
+	border:none;
+	height:35px;
+	padding:0 20px 0 20px;
+	color:#ffffff;
+	background-color:#e8491d; 
+
+}
+
+
+
+header{
+	background-color:#35424a;
+	color:#ffffff;
+	padding-top:30px;
+	min-height:70px; 
+    border-bottom:#e84918 3px solid; 
+    line-height:1.8em;
+}
+
+header ul{
+	list-style:none;
+	float:left 
+	color:#ffffff;
+	padding:0px; 
+}
+
+header li{
+	padding-right:20px;
+	display:inline; 
+}
+
+header a{
+	text-decoration:none;
+	color:#ffffff;
+	font-size:16px 
+}
+
+header #logo{
+float:left;
+}
+
+header nav{
+	float:right;
+	margin:20px; 
+}
+
+header .highlight, header .current a{
+	color:#e8491d;
+	font-weight:bold;
+	line-height:1.8em;  
+} 
+
+
+header a:hover{
+	color:red;
+	font-weight:bold;
+}
+
+#images{
+	min-height:400px;
+	background:url('../images/showcase.jpg') no-repeat 0 -400px; 
+    text-align:center;
+    color:#ffffff;
+    line-height:2.5em;
+}
+
+#images h1{
+	margin-top:190px;
+	font-weight:bold;
+	font-size:40px; 
+}
+
+#subscribe{
+	padding:40px 0 40px 40px;
+	background-color:#35424a; 
+	color:#ffffff;
+}
+
+#subscribe h1{
+	padding-left:0; 
+	float:left;
+
+	font-weight:bold;
+	font-size:35px;
+	line-height:1.8em;
+}
+
+#subscribe form{
+	float:right;
+	margin-top:40px;
+}
+
+#subscribe input[type="email"]{
+	padding:4px;
+	height:25px;
+	width:50%;
+
+}
+
+#boxes{
+	margin-top:20px;
+
+}
+
+#boxes .box{
+	float:left;
+	line-height:1.6em;
+    width:33%; 
+    padding:10px;
+    box-sizing:border-box;
+    text-align:center; 
+	
+
+}
+
+#boxes .box img{
+width:90px; 
+
+}
+
+#footer{
+	background-color:#e8491d;
+	text-align:center;
+	padding:20px;
+	color:#ffffff;
+	font-size:13px; 
+	line-height:2.5em;
+
+}
+
+
+
+#about .page-title{
+	font-size:30px;
+	font-weight:bold;
+
+}
+
+#about article{
+	margin-top:30px;
+	margin-bottom:none;
+	float:left;
+	width:50%;
+	box-sizing:border-box;
+
+}
+
+#about aside{
+	
+	line-height:1.8em;
+	float:right;
+	width:50%;
+	box-sizing:border-box;
+
+}
+
+#about article img{
+	
+	width:500px;
+	height:425px;
+}
+
+/* services**/
+
+#main-col{
+	float:left;
+	width:60%;
+	line-height:1.6em;
+
+
+}
+
+
+#sidebar{
+	float:right;
+	width:25%;
+	background:black;
+	height:380px;
+	margin-top:40px;
+	margin-bottom:40px;
+
+	line-height:1.6em;
+
+
+}
+
+#sidebar .dark h3{
+	padding:15px 0 0 20px;
+	color:white; 
+}
+
+
+#sidebar .dark .quote label{
+	margin-top:20px; 
+	margin-left:20px; 
+
+	color:white;
+
+
+}
+
+#sidebar .dark .quote input,textarea{
+     margin-top:5px;
+	 margin-left:20px;
+	width:70%; 
+	
+	padding:10px;
+
+	line-height:1.6em;
+}
+
+#sidebar .dark .quote .button1{
+	margin-left:20px; 
+}
+#main .page-title{
+margin-left:40px;
+font-size:30px;
+font-weight:bold
+
+}
+#main-col li{
+   margin-top:10px;
+   margin-left:none;
+   list-style:none;
+   width:100%;
+   padding:30px;
+   background-color:#7FFF00; 
+   color:black;
+
+
+
+}
+
+#main-col h3{
+	font-weight:bold;
+	font-size:20px; 
+	line-height:1.6em;
+}
+
+#main-col p{
+	padding-top:10px;
+	padding-left:20px; 
+	line-height:1.6em;
+}
+
+@media(max-width:768px){
+	header #logo ul{
+		float:none;
+		text-align:center;
+	}
+	
+	#boxes .box{
+		float:none;
+		text-align:center;
+		margin:auto;
+}
+#sidebar{
+	width:100%; 
+	float:none;
+	display:block;
+}
+
+
+
+}
+
+@media(max-width:1300px){
+	#about article{
+        float:none;
+		text-align:center;
+		margin:auto;
+		display:block;
+
+}
+
+#about aside{
+	    float:none;
+		text-align:center;
+		margin:auto;
+		display:block;
+}
+
+
+}
+
+@media(max-width:950px){
+#main-col{
+	float:none;
+	width:70%;
+	
+}
+
+#sidebar{
+	float:none;
+	width:73%;
+	margin-left:40px; 
+}
+
+
+	
+	
+
+}
