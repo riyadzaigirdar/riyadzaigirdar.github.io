@@ -79,9 +79,11 @@ header a:hover{
 }
 
 #images{
+	
 	min-height:400px;
-	background:url('../images/showcase.jpg') no-repeat 0 -400px; 
-    text-align:center;
+	background:url('../images/showcase.jpg') no-repeat 0 -400px;
+	background-position:center; 
+    
     color:#ffffff;
     line-height:2.5em;
 }
@@ -160,6 +162,7 @@ width:90px;
 }
 
 #about article{
+	
 	margin-top:30px;
 	margin-bottom:none;
 	float:left;
@@ -298,6 +301,7 @@ font-weight:bold
 		text-align:center;
 		margin:auto;
 		display:block;
+		
 
 }
 
@@ -306,6 +310,12 @@ font-weight:bold
 		text-align:center;
 		margin:auto;
 		display:block;
+}
+
+#about .container article{
+     
+     margin:10px;
+
 }
 
 
